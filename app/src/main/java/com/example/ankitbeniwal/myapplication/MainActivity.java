@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+
 public class MainActivity extends AppCompatActivity {
     ListView listView;
     ArrayList<String> batches;
@@ -31,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
 //            batches.add("C++ 1");
 //
 //        }
+
+        System.out.println("Hello");
+
         batchAdapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,
                 batches);
 
